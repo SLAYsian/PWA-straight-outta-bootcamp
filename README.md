@@ -15,16 +15,16 @@
 
 > ## USAGE
 
-#### Click the link ro the site [Jate That No Crumbs](https://jate-that-no-crumbs-74e39679af39.herokuapp.com/)<br/>
-#### You Can enter notes or code directly on the site<br/>![site notes]()<br/>
-#### You can click the install button, open the downloaded app and enter notes without using internet. Your notes entered on the site will be accessible on your app<br/>
-![app]()<br/>
+#### Click the link to the site [Jate That No Crumbs](https://jate-that-no-crumbs-74e39679af39.herokuapp.com/)<br/><br/>![JATE That No Crumbs site](./client/src/images/jate-site.png)<br/>
+
+#### You Can enter text or code snippets directly on the site<br/><br/>![site notes](./client/src/images/notes-site.png)<br/>
+#### To install click the `Install!` button, open the downloaded app to be able to use offline. Your notes entered on the site will be accessible on your app<br/><br/>
+![install](./client/src/images/install-app.png)<br/>![apps](./client/src/images/downloaded-app.png)<br/>
+![app](./client/src/images/app-notes.png)<br/>
 #### Notes written on your app or on your browser window will be accessible on both<br/><br/>
-![notes])
+![site-app](./client/src/images/app-and-site.png)
 
 > ## REFERENCES
-- UDEMY Jonas Schmedtmann courses (https://codingheroes.io/resources/)
-- UDEMY Dr Angela Yu (https://appbrewery.com/)
 - UConn Coding Bootcamp - Module 19 PWA Lessons
 
 > ## LICENSE
