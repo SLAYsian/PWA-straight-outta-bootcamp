@@ -5,7 +5,6 @@
 > ## DESCRIPTION
   An installable text editor that will allow you write notes or code snippets with or without internet.
 
-
 ## TABLE OF CONTENTS
   1. [Description](#description)
   2. [Usage](#usage)
@@ -22,7 +21,6 @@
 ![app]()<br/>
 #### Notes written on your app or on your browser window will be accessible on both<br/><br/>
 ![notes])
-
 
 > ## REFERENCES
 - UDEMY Jonas Schmedtmann courses (https://codingheroes.io/resources/)

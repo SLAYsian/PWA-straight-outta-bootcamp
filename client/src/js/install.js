@@ -16,6 +16,8 @@ butInstall.addEventListener('click', async () => {
   }
   promptEvent.prompt();
   window.deferredPrompt = null;
+
+  butInstall.style.display = 'none';
 });
 
 
