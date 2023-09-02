@@ -32,16 +32,16 @@ module.exports = () => {
         name: 'JATE Text Editor',
         short_name: 'JATE',
         description: 'A PWA text editor that runs in the browser.',
-        background_color: '#b76e79',
-        theme_color: '#b76e79',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
         start_url: './',
         publicPath: './',
-        crossorigin: 'use-credentials',
+        // crossorigin: 'use-credentials',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join('icons')
+            destination: path.join('assets', 'icons')
           }
         ]
       }),
@@ -60,7 +60,7 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/transform-runtime'],
+              plugins: ['@babel/plugin-transform-runtime'],
             },
           },
         },
