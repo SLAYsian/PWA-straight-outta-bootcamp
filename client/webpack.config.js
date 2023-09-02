@@ -20,7 +20,6 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: 'index.html',
-        // TODO: Double check
         filename: 'index.html'
       }),
       new InjectManifest({
@@ -61,7 +60,7 @@ module.exports = () => {
             loader: 'babel-loader',
             options: {
               presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+              plugins: ['@babel/transform-runtime'],
             },
           },
         },
