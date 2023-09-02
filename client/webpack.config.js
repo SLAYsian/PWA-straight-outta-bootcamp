@@ -12,7 +12,6 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      editor: './src/js/editor.js'
     },
     output: {
       filename: '[name].bundle.js',
@@ -20,9 +19,9 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: './index.html',
+        template: 'index.html',
         // TODO: Double check
-        filename: 'editor'
+        filename: 'index.html'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
