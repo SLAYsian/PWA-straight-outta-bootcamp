@@ -21,7 +21,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         // TODO: Double check
-        filename: 'index.html'
+        filename: 'editor'
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
